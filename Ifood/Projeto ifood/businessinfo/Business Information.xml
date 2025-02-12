@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="ED2019D1-5B68-175E-DE7A-246BD452F313">
-<createdBy>lucas.correa</createdBy>
-<createdTime>2024-06-14 12:33:31 UTC</createdTime>
-<ownerDesignName>Projeto ifood</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

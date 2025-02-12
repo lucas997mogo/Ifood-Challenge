@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1A47E163-1E88-C8BD-1C38-EE42CF8C4273" mainViewID="32BC0EB4-0612-64F0-4102-0BEC8E91DBFB">
-<createdBy>lucas.correa</createdBy>
-<createdTime>2024-06-14 12:33:31 UTC</createdTime>
-<ownerDesignName>Projeto ifood</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
