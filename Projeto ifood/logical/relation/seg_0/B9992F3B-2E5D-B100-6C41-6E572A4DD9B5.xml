@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="B9992F3B-2E5D-B100-6C41-6E572A4DD9B5">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:08:03 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<targetPk>E8B94E32-02EC-EF48-AC66-E72411D0B257</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>61E2A10C-8DC2-1C93-1954-65200FD07549</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>528B3B8C-C30C-E8D7-FA3B-DC38A12B8322</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

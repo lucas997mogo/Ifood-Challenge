@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74627E66-268A-98A5-CADD-AC42BFAFEC8E" name="Recebível">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 13:58:00 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attribute_1" id="6BC17D72-2CAB-A17E-D9D3-DD256393ABD6">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 13:58:09 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="F2A88608-025A-E7EE-71C2-7959528FB7B7">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 13:58:24 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="5A0D233F-D518-00D3-C98F-C0D20F767127">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 13:58:40 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="decrição" id="AB670E8A-EAFF-3E2B-E812-FFB6E4394EE0">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 13:58:49 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="0E94FB41-B4CA-89C3-263A-C046A6AFBA00">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 13:59:00 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metodo_pagamento" id="DC4584D4-B23C-44DC-FDF2-367D10F1FBDD">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:25:57 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conta" id="01E7A51A-E090-25EE-7FD0-4FEC6613B815">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:17:29 UTC</createdTime>
+<generatorID>90D55E69-E369-8F86-599F-7A055E84423A</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<referedAttribute>23A6D256-9ECB-EE65-368E-7E9C9743F235</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="8A494C66-1518-B177-7B27-2422A3CDF917">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:35:52 UTC</createdTime>
+<generatorID>93C24EE7-ED21-1410-BDC5-4277FD8A3308</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<referedAttribute>630CB911-73E8-9309-3C85-8EBCEB0DD129</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA944941-918D-3BC0-CC7F-AE93EB0BD986" name="Recebível PK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 13:58:22 UTC</createdTime>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<engineerTo>
+<item key="450AA337-BC53-ACE9-A4B8-03BD26849BCD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BC17D72-2CAB-A17E-D9D3-DD256393ABD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

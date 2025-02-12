@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5C9DF66-95E4-3D9F-85B6-3CE0BA35EA87" name="Pagamento">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>BD3CEECB-D20B-3E76-F38C-AF5048B7CD68</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pagamento" id="FC9B0B6B-8592-9E00-FC3A-383B5D70DA1C">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>891E0E5F-F39D-7F62-5E5C-285E9075D1FC</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="64C11D83-5DFB-4C9E-4C7B-3757528AD820">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>F249D3BE-641F-41DB-EE50-ECE83CDF349D</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="967133DB-45D0-20E9-9561-BC8E419D5D1D">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>B454519F-A822-0A73-D8B2-26CDD6D82B55</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descrição" id="F3854532-3606-1CD0-EF2E-4B24004E588D">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>BDACFD8F-7AEE-0094-592B-945D6F455F5D</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="00B6CA32-F3CE-0007-8F77-95DFE5A5ECFE">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>469CC4F2-5EE3-62FF-6AF5-510D5C2EA631</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metodo_pagamento" id="81BC8BB1-3D0C-8016-CCEF-55714DDCF514">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>E643C393-CAEB-BB7A-B7ED-C4E90C1AA61C</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Conta_Digital_id_conta" id="65088829-357F-2C40-AE26-2ABEA5F55440">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>479410EC-0E17-B306-9B2B-9D2E55761AD8</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41AD0267-F93C-6F7C-F3DA-AC86A7C867F2" referredColumn="5ACA446A-E9B8-AD8E-2C13-679711E46166"/>
+</associations>
+</Column>
+<Column name="Fornecedor_id_fornecedor" id="0053322D-FEE7-C105-365E-8382D46F50F1">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>34670709-4AF8-711F-D6E9-DD8897553A1F</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1613AD6E-C270-3B43-E2BB-BD60A0B68797" referredColumn="09D30AE7-4747-813A-C6BC-BBDE83CF2906"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E3BD82B-3152-1531-24A7-9CFBFDA63386" name="Pagamento_PK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>BB36F1A8-7010-D783-105F-CF254DC8FFD2</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC9B0B6B-8592-9E00-FC3A-383B5D70DA1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD066B35-4AFB-2D4A-8950-2AD0B42CF036" name="Pagamento_Fornecedor_FK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>D63D71B2-BC25-5824-BF94-5C7BA393B19B</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0053322D-FEE7-C105-365E-8382D46F50F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D165659-7DEF-AC37-83ED-BDFB44DD0BAD" name="Pagamento_Conta_Digital_FK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>BAED1CB4-754E-EA45-D49E-0AD1EFFB2277</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65088829-357F-2C40-AE26-2ABEA5F55440"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

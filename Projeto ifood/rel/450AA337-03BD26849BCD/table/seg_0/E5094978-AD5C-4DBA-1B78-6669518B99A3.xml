@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5094978-AD5C-4DBA-1B78-6669518B99A3" name="Permissões">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>EB7C6D8E-0ED4-0FFE-354D-9624A4F89DC2</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_permissão" id="C766B0BD-F997-DE01-E09B-2569FB84BD7A">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>9C19C7C1-52A0-B90C-B5CC-E2040BC54034</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="47B2B26C-01AA-FCF4-C5B7-8B1C59E63A9D">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>039A96BB-59A7-ACAA-5C6C-0757BA3DDBF5</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descrição" id="2688C975-8C38-2F0A-B6AD-10B6E3B8C148">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>62101023-6DA6-74CD-2607-82DB5FF3558C</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85A81F20-6AB3-C33E-3D69-0D06A2A21165" name="Permissões_PK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>5E4BA1E4-1D15-F3BC-CDB3-027E0EC7F748</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C766B0BD-F997-DE01-E09B-2569FB84BD7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

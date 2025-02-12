@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4577AD0-A410-6CF7-2C14-F60426C2F833" name="Conta_Digital">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>F05FF49A-AB36-9147-B94D-5F36F5ACCD6F</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conta" id="5ACA446A-E9B8-AD8E-2C13-679711E46166">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>23A6D256-9ECB-EE65-368E-7E9C9743F235</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo" id="FE420A08-40EA-2A4C-3613-0C046EEA4737">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>4AB1294B-0798-1000-C360-EEBD625625D0</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parceiro_id_parceiro" id="E0926663-0623-6707-17BB-66E79F86660E">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>3C28FD15-1688-F3C4-D861-D919864E2330</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDF6E13F-7748-1A67-7F9E-2C5778C95F79" referredColumn="7F9BF6FF-86C4-4E95-1E58-B32D7C9AA882"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBA597E5-B30A-1B60-AE5B-9BE8B0B92611" name="Conta_Digital_PK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>90D8655B-4824-8355-3A0B-E023D03FB596</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ACA446A-E9B8-AD8E-2C13-679711E46166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACD00C6B-BE90-6976-A9FC-D06205D9207B" name="Conta_Digital_Parceiro_FK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>64DE10BC-4C46-BC8B-B0EB-A16FBFBEA18B</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0926663-0623-6707-17BB-66E79F86660E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

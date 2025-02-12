@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5D13253-99E6-EA17-2D70-EE3DE185832F" name="Parceiro">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>528B3B8C-C30C-E8D7-FA3B-DC38A12B8322</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_parceiro" id="7F9BF6FF-86C4-4E95-1E58-B32D7C9AA882">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>64978AF1-72D3-4DF6-A340-444F8F5CD5EF</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="6F628DC2-E8EE-C5A6-E0AA-62974DD7D6B9">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>2CCAF184-321B-F570-F887-EADDD8708997</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="ED56DAE5-F24E-22A7-F27A-060AB6677736">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>F90E5D41-F292-8564-65EB-B114BA282915</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="9E8D7CDD-6501-5112-773F-508832AC8E93">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>8331AB86-1DE5-B653-54A6-972A60020AFE</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="044B15D1-E784-10B2-5B38-5E0ABF1F1BF8" name="Parceiro_PK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>E8B94E32-02EC-EF48-AC66-E72411D0B257</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F9BF6FF-86C4-4E95-1E58-B32D7C9AA882"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
