@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21DF4409-AE93-5E7D-3B39-A22AD4A8E0FE" name="Permissão_usuário">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>D11672FE-BD0C-182A-8ECF-16D0C9AA3386</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Usuário_id_usuário" id="C71419F6-0BCA-9F35-E6DF-5F88DB06D398">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>3C286F26-72D8-CCD3-3D1D-6267FE34DCE4</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="463390BB-7A65-6D4B-B668-8A7A51F503E2" referredColumn="B85E20F4-CCEE-07BA-7DBE-BB6F3C92684C"/>
+</associations>
+</Column>
+<Column name="Permissões_id_permissão" id="DE7AD9C2-4CCA-D643-9447-4F8774F56E5C">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>704234E8-0E74-09DD-2573-4FA79A9172C9</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24AF0168-D7C3-2E5E-01A8-D39993738136" referredColumn="C766B0BD-F997-DE01-E09B-2569FB84BD7A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E4BF485-719B-FDA2-2CEE-921D0B89DFDA" name="Permissão_usuário_Usuário_FK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>8565B08E-D1AB-9C60-6518-8E39A1937AB9</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C71419F6-0BCA-9F35-E6DF-5F88DB06D398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CCBFB7D-E462-38F6-8C3B-C62219FDFA3B" name="Permissão_usuário_Permissões_FK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>2E62DF25-A00E-57FF-CF0E-1FCF8F6A3676</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE7AD9C2-4CCA-D643-9447-4F8774F56E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

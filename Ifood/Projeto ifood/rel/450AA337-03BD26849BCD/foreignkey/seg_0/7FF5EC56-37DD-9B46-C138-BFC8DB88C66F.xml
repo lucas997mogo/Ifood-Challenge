@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FF5EC56-37DD-9B46-C138-BFC8DB88C66F" containerWithKeyObject="26119DB3-54A2-EAA7-0A95-0E0474DF3513" localFKIndex="9988A03C-4F33-FA76-1FBC-90E8397728A3" name="Transação_Conta_Digital_FK">
+<createdBy>lucas.correa</createdBy>
+<createdTime>2024-06-14 14:41:34 UTC</createdTime>
+<generatorID>A18DAEAC-665E-D824-4674-CDCE1481593B</generatorID>
+<ownerDesignName>Projeto ifood</ownerDesignName>
+<referredTableLongName>Conta_Digital</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4577AD0-A410-6CF7-2C14-F60426C2F833</referredTableID>
+<keyObject>BBA597E5-B30A-1B60-AE5B-9BE8B0B92611</keyObject>
+<referredKeyID>BBA597E5-B30A-1B60-AE5B-9BE8B0B92611</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
